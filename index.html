@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Stylsheet CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <!-- Font Awesome Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Animations ---->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Covid Tracker Website</title>
+</head>
+
+<body>
+
+    <!--======================= First Section =======================-->
+    <section class="first_section">
+        <!-- Whole Hero Section -->
+        <div class="hero_container">
+
+
+            <!-- NavBar -->
+            <nav class="nav_container">
+                <div class="logo">
+                    <img src="/img/logo.png" alt="logo">
+                </div>
+                <div class="pc_menu">
+                    <ul id="navi-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#what-we-do">What we do?</a></li>
+                        <li><a href="#prevention">Prevention</a></li>
+                        <li><a href="#symptoms">Symptoms</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="menu" id="toggle-button">
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navigation Bar Ended -->
+
+
+            <!-- Hero Section Content -->
+            <div class="hero_content_container">
+                <!-- Left Hero Section Content -->
+                <div class="hero_left" data-aos="fade-right">
+                    <p style="font-size:1.8rem; font-weight: 500;color: #FF0000;line-height: 1
+                    ;">COVID-19 Alert</p>
+                    <h1 class="hero_title">Together we fight COVID-19</h1>
+                    <p>Seque empowers you to get more done with intense focus and zero interruptions.Seque empowers you
+                        to get more done with intense focus and zero interruptions.</p>
+                    <a href="#">Let us help</a>
+                </div>
+                <!-- Right Hero Section Content -->
+                <div class="hero_right" data-aos="fade-left">
+                    <img src="/img/hero_image.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Hero Section Content Ended -->
+    </section>
+    <!--======================= First Section Ended =======================-->
+
+
+
+    <!--======================= Second Data Section =======================-->
+    <section class="second_section">
+        <div class="second_section_container">
+            <!-- Counting Data Comtainer -->
+            <div class="count_container" data-aos="fade-in">
+                <div class="count_item count_1">
+                    <p class="count_first_tagline">Total Cases</p>
+                    <p class="count_second_tagline">492,667</p>
+                    <p class="count_third_tagline">+2,584</p>
+                </div>
+                <div class="count_item count_2">
+                    <p class="count_first_tagline">Active Cases</p>
+                    <p class="count_second_tagline">492,667</p>
+                    <p class="count_third_tagline">18% from total cases</p>
+                </div>
+                <div class="count_item count_3">
+                    <p class="count_first_tagline">Recovered</p>
+                    <p class="count_second_tagline" id="recovered_green_color">492,667</p>
+                    <p class="count_third_tagline">55% from total cases</p>
+                </div>
+                <div class="count_item count_4">
+                    <p class="count_first_tagline">Deaths</p>
+                    <p class="count_second_tagline" id="deaths_red_color">492,667</p>
+                    <p class="count_third_tagline">20% from total cases</p>
+                </div>
+            </div>
+            <!-- Counting Data Comtainer Ended -->
+            <div class="country">
+                <p>Pakistan | Latest Update: 12:33PM</p>
+            </div>
+        </div>
+    </section>
+    <!--======================= Second Data Section Ended =======================-->
+
+
+
+    <!-- ======================= What We Do Section ======================= -->
+    <section class="third_section" id="what-we-do">
+        <div class="what_we_do_container">
+            <div class="left_do" data-aos="fade-right">
+                <img src="/img/what we do.png" alt="What We Do">
+            </div>
+            <div class="right_do" data-aos="fade-left">
+                <h1>What we do?</h1>
+                <p>Covid 19 positive or Pneumonitis patient will be treated at home as per doctor order by GNC certified
+                    nursing staff.</p>
+                <ul>
+                    <li>Facilities of blood sugar</li>
+                    <li>B.P. Measurement</li>
+                    <li>Spo2 Measurement</li>
+                    <li>Ryle's tube insertion</li>
+                    <li>Catheterisation</li>
+                    <li>Dressing facilities are available 24*7</li>
+                </ul>
+
+                <a href="#">Contact Us --></a>
+            </div>
+        </div>
+    </section>
+    <!--======================= What We Do Section Ended =======================-->
+
+
+
+    <!--======================= Prevention Section =======================-->
+    <section class="fourth_section" id="prevention">
+        <div class="prevention_container">
+            <h1>Prevention</h1>
+            <p>Protect yourself and others around you by knowing the facts and taking appropriate precautions. Floow
+                advice provided by your local health authority.</p>
+        </div>
+        <div class="three_cards_container">
+            <div class="card card-1" data-aos="flip-down">
+                <img src="/img/prevention-1.png" alt="">
+                <h1>Wear a mask</h1>
+                <p>Masks can help prevent the spread of the virus from the person wearing the mask to others.</p>
+            </div>
+            <div class="card card-2" data-aos="flip-down">
+                <img src="/img/prevention-2.png" alt="">
+                <h1>Wash your hands often</h1>
+                <p>Clean your hands with soop and water, or alcohol-based hand sanitizer.</p>
+            </div>
+
+            <div class="card card-3" data-aos="flip-down">
+                <img src="/img/prevention-3.png" alt="">
+                <h1>Physical distancing</h1>
+                <p>Maintain a safe distance especially from anyone who is coughinf or sneezing.</p>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!--======================= Prevention Section Ended =======================-->
+
+
+
+    <!--======================= Symptoms Section =======================-->
+    <section class="fifth_section" id="symptoms">
+        <div class="symptom_container">
+            <h1>Symptoms</h1>
+            <p>COVID-19 affects different people in different ways. Most infected people will develop mild to moderate
+                illness and recover without hospitalization.</p>
+            <div class="down" data-aos="zoom-in"><img src="/img/symptoms.png" alt=""></div>
+        </div>
+    </section>
+    <!--======================= Symptoms Section Ended =======================-->
+
+
+
+    <!--======================= Contact Section =======================-->
+    <section class="sixth_section" id="contact">
+        <div class="last_section">
+            <div class="contact_container">
+                <h1>Need Help!</h1>
+                <p>Protect yourself and others around you by knowing the facts and taking appropriate precautions. Floow
+                    advice provided by your local health authority.</p>
+                <div class="down" data-aos="zoom-in"><img src="/img/contact.png" alt=""></div>
+
+
+                <div class="form_section">
+                    <div class="form_left">
+                        <div class="left_one">
+
+                            <p> <img src="/img/message.png" alt=""> Danish GOHEL <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (+91) 9157999875</p>
+                            <p> <img src="/img/message.png" alt=""> Danish GOHEL <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  (+91) 9157999875</p>
+                        </div>
+                    </div>
+                    <div class="form_right">
+
+
+                        <div class="form_container">
+                            <form action="backend.php">
+
+                                <input type="text" name="firstname" placeholder="Name">
+
+                                <input type="text" name="num" placeholder="Number">
+
+                                <textarea name="subject" placeholder="How can I help you?"
+                                    style="height:200px"></textarea>
+
+                                <a href="#">Contact Us --></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer">
+                    <p>© 2021, Design & Developed by Atik Gohel </p>
+                    <a href="#"> <img src="/img/coolicon.png" alt=""> Back to top</a>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <!--======================= Contact Section Ended =======================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
